@@ -1,4 +1,3 @@
-SideHustle-Capstone-Project 
 <html>
  <head>   
 <title> PHP PROGRAM TO CALCULATE ELECTRICITY BILL </title>
@@ -20,7 +19,7 @@ SideHustle-Capstone-Project
    if(isset($_POST['Total']))
    {
    $metre_no=$_POST['metre_no'];
-   $units=$_POST['units'];}
+   $units=$_POST['units'];
    
     if ($units <= 50) 
     {
@@ -48,5 +47,6 @@ SideHustle-Capstone-Project
         echo "Your meter Number is $metre_no<br/>";
         echo "Total units consumed is $units units<br/>";
         echo "The total cost for the electrical bill is $$total_cost <br/>";
+}
     ?>
 </html>
